@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Monoton&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Warnes&display=swap');
+*{
+    background-color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+h1,h2{
+    position: relative;
+    text-align: center;
+    color: white
+}
+h1{
+    margin-top: 185px;
+    font-size: 200px;
+    font-family: 'Major Mono Display', monospace;
+    font-weight: 100;
+    color: white;
+    margin-bottom: 310px;
+}
+h2{
+    font-size: 75px;
+    margin-bottom: 100px;
+}
+#head1{
+    /* margin-top: 100px; */
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Monoton', cursive;
+    color:rgb(144, 9, 144)
+}
+.container{
+    margin-top: 20px;
+    margin-bottom: 100px;
+    position: relative;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    max-height: fit-content;
+    justify-content: space-around;
+}
+.t{
+    text-align: center;
+    width: 24.5%;
+    max-height: max-content;
+    
+}
+.t:hover .image {
+filter: brightness(25%);
+}
+.t:hover .middle{
+    opacity: 1;
+}
+.t img{
+    max-width: 100%;    
+}
+.middle{
+    position: absolute;
+    width: 24%;
+    bottom: 50%;
+    border: 1PX solid snow;
+    color: white;
+    text-align: center;
+    opacity: 0;
+    word-wrap: normal;
+}
+.fa-linkedin {  
+    margin-top: 7px;
+  background:black;  
+  color: white;  
+  margin-bottom: 10px;
+}  
+.fa-instagram {  
+    margin-top: 7px;
+  background: #125688;  
+  color: white; 
+   margin-bottom: 10px;
+}  
+#leader{
+    color:goldenrod;
+}
+hr{
+    margin-top: 0px;
+}
